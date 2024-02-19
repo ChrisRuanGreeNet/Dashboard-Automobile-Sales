@@ -28,7 +28,7 @@ year_list = [i for i in range(1980, 2024, 1)]
 
 app.layout = html.Div([
     html.H1("Automobile Sales Statistics Dashboard",
-            style={'font_size': 24, 'color': '#503D36'}),
+            style={'textAlign': 'center', 'font_size': 24, 'color': '#503D36'}),
     html.Div([
         html.Div(
             html.Label("Select Statistics:",
